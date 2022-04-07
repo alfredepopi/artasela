@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sca">
+
+    <!--=============UNICONS===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <!--================ SWIPER CSS ==============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+
+
+    <!--================ CSS ==============-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Alfred Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Artasela</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Acceuil
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Produits
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> A propos
+                        </a>
+                    </li>
+    
+                    <li class="nav__item">
+                        <a href="/contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contacts
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/users" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Formulaires
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+<form action="http://127.0.0.1:5000/users" method="post">
+    <div class="container_form">
+      <h1>Contact</h1>
+      <p>Veuillez entrer les informations suivantes pour qu'on puisse vous contacter.</p>
+      <hr>  
+      <label for="civlite"><b>Civilité:</b></label>
+      <input type="text" placeholder="Entrez votre civilité" name="civilite" required>
+  
+      <label for="prenom"><b>Prénom:</b></label>
+      <input type="text" placeholder="Entrez votre prénom" name="prenom" required>
+  
+  
+      <label for="nom"><b>Nom:</b></label>
+      <input type="text" placeholder="Entrez votre nom" name="nom" required>
+  
+      <hr>
+
+      <label for="email"><b>Email:</b></label>
+      <input type="text" placeholder="Entrez votre email" name="email" required>
+  
+      <label for="adress"><b>Adress:e</b></label>
+      <input type="text" placeholder="Entrez votre adresse" name="adress" required>
+  
+  
+      <label for="ville"><b>Ville:</b></label>
+      <input type="text" placeholder="Enter votre ville" name="ville" required>
+  
+      <label for="postal"><b>Code postal:</b></label>
+      <input type="number" placeholder="Enter votre code postal" name="postal" required>
+  
+      <label for="pays"><b>Pays:</b></label>
+      <input type="text" placeholder="Enter votre pays" name="pays" required>
+  
+      <label for="proffesion"><b>Profession:</b></label>
+      <input type="text" placeholder="Enter votre profession" name="proffesion" required>
+
+      <label for="message"><b>Message:</b></label>
+      <input type="text" placeholder="Enter votre message" name="message" required>
+  
+  
+  
+  
+      <div class="clearfix">
+  
+        <button type="submit" class="signupbtn">Ajouter</button>
+      </div>
+    </div>
+  </form>
+
+  <!--============= SWIPER JS ===============-->
+  <script src="swiper-bundle.min.js"></script>
+
+
+
+  <!--============= MAIN JS ===============-->
+  <script src="main.js"></script>
+</body>
+</html>
