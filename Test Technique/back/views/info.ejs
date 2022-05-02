@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-sca">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--=============UNICONS===============-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet"  href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
 
     <!--================ SWIPER CSS ==============-->
-    <!-- <link rel="stylesheet" href="swiper-bundle.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="swiper-bundle.min.css">
 
-
-
+    <!--================ CSS ==============-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <title>Artasela</title>
 </head>
@@ -64,9 +64,6 @@
     </header>
     <div class="container">
         <input type="hidden" value="<%= user.id %>" name="id">
-      <h1>Sign Up</h1>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
   
       <label for="civlite"><b>Civilité:</b></label>
       <input type="text" placeholder="Entrer Name" name="civilite" value="<%=user.civilite%>" disabled>
@@ -111,6 +108,14 @@
       </div>
     </div>
   </form>
+
+    <!--============= SWIPER JS ===============-->
+     <script src="swiper-bundle.min.js" type="module"></script>
+
+
+
+    <!--============= MAIN JS ===============-->
+    <script src="main.js" type="module"></script>
 
 </body>
 </html>

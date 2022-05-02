@@ -294,10 +294,25 @@ button {
     margin: 4px 2px;
     cursor: pointer;
   }
-  /* Table  */
 
-  tbody{
-       border: #4CAF50;
+  th{
+      margin-right: 3px;
+  }
+  h2{
+      margin-top: 100px;
+  }
+
+  .lien{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
 /*============================ MEDIA QUERIES ==============================*/
 /* For small devices*/

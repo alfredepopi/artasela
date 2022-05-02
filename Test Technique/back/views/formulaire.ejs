@@ -6,7 +6,13 @@
     <!--=============UNICONS===============-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+    <!--================ SWIPER CSS ==============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
 
+
+
+    <!--================ CSS ==============-->
+    <link rel="stylesheet" href="styles.css">
 
 
     <title>Artasela</title>
@@ -89,13 +95,20 @@
                 <td><%= user.proffesion %></td>
                 <td><%= user.message %></td>
                 <td>
-                    <a href="users/<%= user.id %>" class="btn btn-sm btn-primary">Info</a>
-                    <a href="delete/<%= user.id %>" class="btn btn-sm btn-danger">Delete</a>
+                    <a href="users/<%= user.id %>" class="lien">Info</a>
                 </td>
             </tr>
         <% }); %>
     </tbody>
   </table>
 </div>
+
+<!--============= SWIPER JS ===============-->
+<script src="swiper-bundle.min.js"></script>
+
+
+
+<!--============= MAIN JS ===============-->
+<script src="main.js"></script>
 </body>
 </html>
